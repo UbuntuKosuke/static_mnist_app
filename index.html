@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>mnist-app</title>
+    <link
+      rel="stylesheet"
+      href="/static/style.css"
+      type="text/css"
+      media="all"
+    />
+  </head>
+  <body>
+    <header>
+      <h1> asdfasdfasf手書き数字推論で遊ぼう</h1>
+    </header>
+    <main>
+      <section>
+        <h2>数字を書いてください</h2>
+        <canvas id="draw-area" width="280px" height="280px"></canvas>
+        <div class="buttons">
+          <button id="predict-button">推論実行</button>
+          <button id="clear-button">書き直す</button>
+        </div>
+      </section>
+      <section>
+        <h2>推論結果</h2>
+        <div class="result-image-table">
+          <div id="result-image"></div>
+          <table class="result-table">
+            <thead>
+              <tr>
+                <th>数字</th>
+                <th>確率</th>
+              </tr>
+            </thead>
+            <tbody id="result-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.12.1/dist/ort.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handwriting-canvas@0.1.0/dist/main.min.js"></script>
+    <script src="./static/main.js"></script>
+  </body>
+</html>

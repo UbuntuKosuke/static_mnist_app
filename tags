@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/ub-kosuke/work/Udemy/O-shima/mnist_app/static-site/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+#draw-area	static/style.css	/^#draw-area {$/;"	i
+#result-image	static/style.css	/^#result-image {$/;"	i
+.buttons	static/style.css	/^.buttons{$/;"	c
+.result-image-table	static/style.css	/^.result-image-table {$/;"	c
+.result-table	static/style.css	/^.result-table {$/;"	c
+asdfasdfasf手書き数字推論で遊ぼう	index.html	/^      <h1> asdfasdfasf手書き数字推論で遊ぼう<\/h1>$/;"	h
+body	static/style.css	/^body {$/;"	s
+button	static/style.css	/^button {$/;"	s
+button:hover	static/style.css	/^button:hover {$/;"	s
+canvas	static/main.js	/^const canvas = new HandwritingCanvas(canvasElement);$/;"	C
+canvasElement	static/main.js	/^const canvasElement = document.getElementById("draw-area");$/;"	C
+clear-button	index.html	/^          <button id="clear-button">書き直す<\/button>$/;"	I
+clearButtonElement	static/main.js	/^const clearButtonElement = document.getElementById("clear-button");$/;"	C
+draw-area	index.html	/^        <canvas id="draw-area" width="280px" height="280px"><\/canvas>$/;"	I
+feeds	static/main.js	/^  const feeds = {$/;"	c	class:predict
+float_input	static/main.js	/^    float_input: new ort.Tensor("float32", input, [1, 28 * 28])$/;"	p	class:predict.feeds
+header	static/style.css	/^header {$/;"	s
+main	static/style.css	/^main {$/;"	s
+predict	static/main.js	/^async function predict(input) {$/;"	f
+predict-button	index.html	/^          <button id="predict-button">推論実行<\/button>$/;"	I
+predictButtonElement	static/main.js	/^const predictButtonElement = document.getElementById("predict-button");$/;"	C
+preprocess	static/main.js	/^async function preprocess(blob) {$/;"	f
+result-image	index.html	/^          <div id="result-image"><\/div>$/;"	I
+result-table-body	index.html	/^            <tbody id="result-table-body"><\/tbody>$/;"	I
+推論結果	index.html	/^        <h2>推論結果<\/h2>$/;"	i
+数字を書いてください	index.html	/^        <h2>数字を書いてください<\/h2>$/;"	i
